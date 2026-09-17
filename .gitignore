@@ -1,0 +1,33 @@
+# ===== Node / npm =====
+node_modules/
+
+# ===== Cypress artifacts =====
+cypress/videos/
+cypress/screenshots/
+cypress/downloads/
+coverage/
+
+# ===== Raporlar =====
+reports/
+allure-results/
+
+# ===== Ortam değişkenleri (hassas bilgiler!) =====
+.env
+.env.local
+.env.*.local
+
+# ===== Loglar =====
+*.log
+npm-debug.log*
+
+# ===== İşletim sistemi =====
+.DS_Store
+Thumbs.db
+
+# ===== IDE =====
+.idea/
+.vscode/*
+!.vscode/extensions.json
+
+# ===== Geçici dosyalar =====
+*.tmp
